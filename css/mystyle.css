@@ -1,0 +1,26 @@
+body
+{
+	/*background-color: #E0EEEE;*/
+}
+
+.highlight 
+{
+ background-color : #FFFF00; 
+ 
+ }
+ 
+ .highlight  .comments
+ {
+          display : block;
+ }
+ 
+ 
+ .ytytyty
+ {
+	display: none;
+ }
+ 
+ .comments
+ {
+	display: none;
+ }

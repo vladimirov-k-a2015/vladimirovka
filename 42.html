@@ -1,0 +1,42 @@
+﻿<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/42script.js"></script>
+	</head>
+	<body>
+		<ul>
+			<li>function ShowDetails () {</li>
+			<li style="padding-left: 20px">$(this).closest('.details').find('.ytytyty').slideToggle();</li>
+			<li>}</li>
+			<li></li>
+			<li>$(document).ready(function(){</li>
+				<li style="padding-left: 20px">$('.details').on('click', 'button', ShowDetails);</li>
+				<li style="padding-left: 20px">$('.details').on('mouseenter', 'h2', ShowDetails);</li>
+				<li style="padding-left: 20px">$('.details').on('mouseleave', 'h2', function(){</li>
+					<li style="padding-left: 40px">$(this).closest('.details').find('.ytytyty').slideToggle();</li>
+				<li style="padding-left: 20px">});</li>
+			<li>});</li>
+
+		</ul>
+	
+		<ul>
+			<li><h1>Фильмы </h1></li>
+			<li class="details">
+				<h2>Кино - наведи мышь, чтобы слайд детали</h2>
+				<button>Детали про кино</button> 
+				<ul class="ytytyty">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>
+		</ul>
+		<button>Детали про кино</button> 
+		<p>
+			<a href="index.html">на главную</a><br>
+		</p>
+		
+	</body>
+</html>

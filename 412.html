@@ -1,0 +1,34 @@
+﻿<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/412script.js"></script>
+	</head>
+	<body>
+		<h1>Книги - купить сколько штук</h1>
+		<h2>Скрипт, прикрученный к этой страничке  - вводишь в форму число экземпляров - просчитывает сумму за всю покупку</h2>
+		<ul>
+			<li>$(document).ready(function(){</li>
+			<li style="padding-left: 20px";>$('.book').on('keyup', '.quantity', function(){</li>
+			<li style="padding-left: 40px";>var price = +$(this).closest('.book').data('price');</li>
+			<li style="padding-left: 40px";>var quantity = +$(this).val();</li>
+			<li style="padding-left: 40px";>$('#total').text(price * quantity);</li>	
+			<li style="padding-left: 20px";>});</li>
+			<li>});</li>
+		</ul>
+		<div class="book" data-price="100.50">
+			<h1>Дон Кихот</h1>
+			<p>100.50 грн за книжку</p>
+			<p>
+				<input type='number' class = 'quantity' value='1' />
+			</p>
+			<p> Общая цена за все заказанные книжки:<span id='total'>100.50</span></p>
+			
+		</div>
+	
+		<p>
+			<a href="index.html">на главную</a><br>
+		</p>		
+	</body>
+</html>

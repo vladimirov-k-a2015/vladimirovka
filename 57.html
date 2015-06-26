@@ -1,0 +1,51 @@
+﻿<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/57.js"></script>
+	</head>
+	<body>
+		<h1>Список Фильмов</h1>
+		<h2>Скрипт, прикрученный к этой страничке</h2>
+		<div>
+			<ol>
+				<li>$(document).ready(function(){</li>
+				<li style="padding-left: 20px";>$('#nomen').on('click', '.nomen', function() {</li>
+				<li style="padding-left: 40px";>$(this).toggleClass('highlight');</li>
+				<li style="padding-left: 40px";>if($(this).hasClass('highlight')) {</li>
+				<li style="padding-left: 60px";>$(this).animate({'margin-top': '-10px', 'opacity': '1'}, 'slow');</li>
+				<li style="padding-left: 40px";>} else {</li>
+				<li style="padding-left: 60px";>$(this).animate({'margin-top': '0px', 'opacity': '0.2'}, 'slow');</li>
+				<li style="padding-left: 40px";>} </li>
+				<li style="padding-left: 20px";>});</li>
+				<li>});</li>
+			</ol>
+		</div>
+	
+		<div id="nomen">
+			<ul>
+			<li class="nomen">
+				<h2>Cast Away</h2>
+				<a href="#" class = "expand">Детали про кино</a> 
+			</li>
+			<li class="nomen">
+				<h2>Shawshank Redemption</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+			</li>
+			<li class="nomen">
+				<h2>Калина Красная</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+			</li>
+		</ul>
+		
+		</div>
+		
+		
+		
+		<p>
+			<a href="index.html">на главную</a><br>
+		</p>
+		
+	</body>
+</html>

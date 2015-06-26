@@ -1,0 +1,116 @@
+﻿<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/417js.js"></script>
+	</head>
+	<body>
+		<h1>Список Фильмов</h1>
+		<h2>Скрипт, прикрученный к этой страничке</h2>
+		 <b>нажимаешь на ссылку - fade детали про фильм</b>
+		<ul>
+			<li>$(document).ready(function(){</li>
+			<li style="padding-left: 20px";>$('.cinema').on('click', '.expand',</li>
+			<li style="padding-left: 40px";>function(event){</li>
+			<li style="padding-left: 60px";>event.preventDefault();</li>
+			<li style="padding-left: 60px";>$(this).closest('.cinema')</li>
+			<li style="padding-left: 80px";>.find('.comments')</li>
+			<li style="padding-left: 80px";>.fadeToggle();</li>
+			<li style="padding-left: 40px";>}</li>
+			<li style="padding-left: 20px";>);</li>
+			<li>});</li>
+		</ul>
+		
+		<ul>
+			<li class="cinema">
+				<h2>Cast Away</h2>
+				<a href="#" class = "expand">Детали про кино</a> 
+				<ul class="comments">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>
+			<li class="cinema">
+				<h2>Shawshank Redemption</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+				<ul class="comments">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>
+			<li class="cinema">
+				<h2>Калина Красная</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+				<ul class="comments">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>
+			<li class="cinema">
+				<h2>Когда Деревья Были Большими</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+				<ul class="comments">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>
+			<li class="cinema">
+				<h2>Мы, нижеподписавшиеся</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+				<ul class="comments">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>	
+			<li class="cinema">
+				<h2>Гладиатор</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+				<ul class="comments">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>
+			<li class="cinema">
+				<h2>Троя</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+				<ul class="comments">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>
+			<li class="cinema">
+				<h2>Последний Самурай</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+				<ul class="comments">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>
+			<li class="cinema">
+				<h2>Джонни Получил Винтовку</h2>
+				<a  href="#" class = "expand">Детали про кино</a> 
+				<ul class="comments">
+					<li>год выпуска</li>
+					<li>страна</li>
+					<li>режиссер</li>
+				</ul>
+			</li>
+		</ul>
+		
+		
+		
+		<p>
+			<a href="index.html">на главную</a><br>
+		</p>
+		
+	</body>
+</html>
