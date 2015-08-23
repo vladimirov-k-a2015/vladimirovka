@@ -3,24 +3,97 @@ body
 	/*background-color: #E0EEEE;*/
 }
 
+span {
+
+	padding-left: 60px;
+}
+.for_poem_list{
+	list-style-type: none;
+	padding-left: 480px;
+
+}
+
+.planet_horizontal_list_li
+{
+    float : left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+    list-style-type: none;
+    border: 1px solid;
+    border-color: blue;
+    width: 110px;
+    text-align: center;
+
+    /*background-color : green;    */
+    /*border: 1px solid;
+	border-color: yellow;
+*/
+} 
+
+.planet_horizontal_list_li_ul
+{
+list-style-type: none;
+padding-left: 0px;
+}
+
+.horizontal_list_ul
+{
+    /*margin : 0 auto;*/
+	/*border: 10px solid;
+	border-color: yellow;*/
+	/*background-color: grey;*/
+} 
+
+.horizontal_list_li
+{
+    float : left;
+    /*background-color : green;    */
+    /*border: 1px solid;
+	border-color: yellow;
+*/
+} 
+
+.horizontal_list_ul_li_ul
+{
+    padding-left: 0px;
+	list-style-type: none;
+    /*padding-top: 80px;*/
+    /*background-color : yellow;*/
+    width: 242px;
+    border: 1px solid;
+    border-color: yellow;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+
+    
+}
+
+
+
 .highlight 
 {
  background-color : #FFFF00; 
- 
- }
+}
  
  .highlight  .comments
- {
+{
           display : block;
- }
+}
  
  
  .ytytyty
  {
 	display: none;
+	list-style-type: none;
+	padding-left: 0px;
  }
  
  .comments
  {
 	display: none;
  }
+ 

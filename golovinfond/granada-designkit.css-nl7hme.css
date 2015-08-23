@@ -1,0 +1,180 @@
+/* These styles provide defaults that are overridden in designkit.tpl.php. */
+
+body {
+  background-color: #ccddee;
+  background-image: URL("bg-golovin.jpg"/*tpa=http://golovinfond.ru/sites/all/themes/granada/img/bg-golovin.jpg*/);
+  background-repeat: repeat;
+  background-attachment:fixed;
+  background-position:center;
+}
+
+#block-system-main-menu {
+  background-color: rgba(0,0,0,0.8);
+/*background-image: URL(../img/menu-heads.jpg);*/
+  background-repeat: repeat;
+  background-position:center;
+  border: 1px solid #ccaa00;
+  
+}
+
+.region-main-menu ul li a  {
+   color: #ccaa00;
+  font-size: 1.15em;
+}
+
+
+
+
+
+.region-main-menu ul li a:hover  {
+   color: #aa7700;
+}
+
+ h2[property="dc:title"] {
+	display:block;
+	/*width:100%;*/
+	margin-top: -20px;
+	margin-bottom: 10px;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 7px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	-moz-border-top-right-radius: 6px;
+	-moz-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	background: rgba(250, 190, 50, 0.7);
+	
+}
+
+
+h1.title, h2.title, h3.title, h2[property="dc:title"] a
+{
+	color: #800000;
+}
+
+#content-region  .title {
+	padding:7px;
+	background: rgba(250, 190, 50, 0.7);
+	border-color: #000;
+	border-style:solid;
+	border-width:1px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	
+	
+}
+
+
+
+#site-name  {
+   margin-top: 25px;
+}
+
+#site-name > a {
+   color: #ccaa00;
+}
+
+#slogan {
+    color: #8B4513;
+}
+
+/* Style for individual dropdown menu items, add border-bottom for separators */
+.region-main-menu ul.sf-menu li li {
+ 
+}
+
+#postscript-bottom-wrapper {
+  border-top: 5px solid #AA5303;
+}
+
+#content-tabs ul.tabs.primary {
+  border-bottom: 3px solid #AA5303;
+}
+#content-tabs ul.tabs.primary a {
+  background-color: #ccc;
+}
+
+#content-tabs ul.primary li a.active,
+#content-tabs ul.secondary li a.active,
+#content-tabs ul.primary li a.active:hover,
+#content-tabs ul.secondary li a.active:hover,
+#content-tabs ul.primary li.active a {
+  background-color: #AA5303;
+}
+
+#content-tabs ul.primary li a:hover,
+#content-tabs ul.secondary li a:hover {
+  background-color: #d4a981;
+} 
+
+div.comment {
+  border:1px solid #d4a981;
+}
+
+.comments div.odd {
+  background-color:#ffffff;
+}
+
+.comments div.even {
+  background-color:#faf6f2;
+}
+
+.block ul.links {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border:none;
+  font-weight: bold;
+}
+
+.fusion-border .inner {
+  background: #faf6f2;
+  border:1px solid #c3864e;
+}
+
+body #space-tools .block-title { background-color:#773a02; }
+
+body #header .block-widget .block-content,
+body #header .block .block-title { background-color:#904602; }
+
+ul.pager a,
+ul.pager li.pager-current {
+  border-color: #773a02;
+}
+
+ul.pager li.pager-current {
+  background-color: #AA5303;
+  color: #ffffff;
+}
+
+ul.pager a:hover,
+ul.pager a:active,
+ul.pager a:focus {
+  background-color: #AA5303;
+  border-color: #773a02;
+  color: #ffffff;
+}
+
+.calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today {
+  background-color: #e5cbb3;
+}
+
+body .page-region .block .block-title {
+  background-color:#e0cfbf;
+  border-color:#d2c1b1;
+  border-bottom-color:#c5b3a3;
+}
+
+form input.form-submit:hover,
+form input.form-submit.hover,
+form input.form-submit:focus {
+  background-color: #d4a981;
+}
+
+.search-box-inner input#edit-search-theme-form-header { 
+  border:1px solid #c3864e;
+}
+
